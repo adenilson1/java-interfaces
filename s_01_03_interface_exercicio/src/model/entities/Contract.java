@@ -54,11 +54,4 @@ public class Contract {
 		list.add(installment);
 	}
 
-	public String toString() {
-		double valor = 0;
-		for (Installment installment : list) {
-			valor = installment.getAmount();
-		}
-		return String.format("%.2f",valor);
-	}
 }
